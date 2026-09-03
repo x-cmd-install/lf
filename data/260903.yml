@@ -1,0 +1,63 @@
+about:
+  description: Terminal file manager
+  license: MIT
+  homepage: 
+  head: 1c9029e
+  archived: false
+  latestVersion: r42
+  collectedAt: 2026-09-03T05:06:57Z
+timeline:
+  created: 2016-08-13
+  lastCommit: 2026-08-25
+  lastRelease: 2026-07-31
+popularity:
+  star: 9484
+  watcher: 66
+  fork: 374
+  release: 42
+  contributor: 107
+  pullRequest: 223
+  issue: 1327
+language:
+  Go: 341770
+  Roff: 98994
+  Shell: 9250
+  PowerShell: 3155
+  Nushell: 2243
+  Lua: 1242
+  Vim Script: 805
+  Batchfile: 233
+totalLine: 457692
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 0
+    mergedPR: 5
+    openPR: 4
+    closedIssue: 1
+    openIssue: 3
+    commit: 7
+  last90d:
+    since: 2026-06-05
+    release: 1
+    mergedPR: 24
+    openPR: 14
+    closedIssue: 8
+    openIssue: 8
+    commit: 28
+  last180d:
+    since: 2026-03-07
+    release: 1
+    mergedPR: 129
+    openPR: 25
+    closedIssue: 33
+    openIssue: 17
+    commit: 129
+  last360d:
+    since: 2025-09-08
+    release: 5
+    mergedPR: 293
+    openPR: 27
+    closedIssue: 79
+    openIssue: 25
+    commit: 295
