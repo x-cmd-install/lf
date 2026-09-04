@@ -7,13 +7,13 @@ about:
   head: 1c9029e
   archived: false
   latestVersion: r42
-  collectedAt: 2026-09-04T20:03:16Z
+  collectedAt: 2026-09-04T20:40:32Z
 timeline:
   created: 2016-08-13
   lastCommit: 2026-08-25
   lastRelease: 2026-07-31
 popularity:
-  star: 9489
+  star: 9490
   watcher: 66
   fork: 374
   release: 42
@@ -87,6 +87,74 @@ total:
   openIssue: 56
   commit: 1579
 ---
+path: /home/runner/.x-repo/github.com/gokcehan/lf
+collectedAt: 2026-09-04T20:40:33Z
+loc:
+  Go:
+    code: 12168
+    comments: 343
+    blanks: 1593
+    files: 35
+  Sh:
+    code: 70
+    comments: 45
+    blanks: 20
+    files: 4
+  Lua:
+    code: 33
+    comments: 7
+    blanks: 5
+    files: 1
+  VimScript:
+    code: 26
+    comments: 7
+    blanks: 1
+    files: 1
+  Bash:
+    code: 25
+    comments: 7
+    blanks: 2
+    files: 1
+  PowerShell:
+    code: 25
+    comments: 19
+    blanks: 4
+    files: 2
+  Zsh:
+    code: 20
+    comments: 10
+    blanks: 4
+    files: 1
+  Fish:
+    code: 18
+    comments: 21
+    blanks: 2
+    files: 2
+  Batch:
+    code: 6
+    comments: 0
+    blanks: 1
+    files: 1
+  CShell:
+    code: 4
+    comments: 22
+    blanks: 3
+    files: 2
+  Markdown:
+    code: 0
+    comments: 2463
+    blanks: 1030
+    files: 4
+  Text:
+    code: 0
+    comments: 1869
+    blanks: 722
+    files: 1
+total:
+  code: 12398
+  comments: 4813
+  blanks: 3387
+  files: 55
 ---
 date: "2026-08-24"
 repo:
