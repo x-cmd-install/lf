@@ -5,18 +5,18 @@ about:
   head: 1c9029e
   archived: false
   latestVersion: "r42"
-  collectedAt: 2026-09-07T05:50:34Z
+  collectedAt: 2026-09-07T18:47:43Z
 timeline:
   created: 2016-08-13
   lastCommit: 2026-08-25
   lastRelease: 2026-07-31
 popularity:
-  star: 9491
+  star: 9492
   watcher: 67
   fork: 374
   release: 42
   contributor: 107
-  pullRequest: 1056
+  pullRequest: 1060
   issue: 1327
 language:
   Go: 341770
@@ -33,60 +33,60 @@ recent:
     since: 2026-08-08
     release: 0
     mergedPR: 5
-    openPR: 4
+    openPR: 8
     closedIssue: 1
     openIssue: 3
-    commit: 2
+    commit: 0
   last60d:
     since: 2026-07-09
     release: 1
     mergedPR: 15
-    openPR: 8
+    openPR: 12
     closedIssue: 5
     openIssue: 4
-    commit: 14
+    commit: 0
   last90d:
     since: 2026-06-09
     release: 1
     mergedPR: 21
-    openPR: 14
+    openPR: 18
     closedIssue: 8
     openIssue: 8
-    commit: 19
+    commit: 0
   last180d:
     since: 2026-03-11
     release: 1
     mergedPR: 124
-    openPR: 25
+    openPR: 29
     closedIssue: 30
     openIssue: 17
-    commit: 121
+    commit: 0
   last360d:
     since: 2025-09-12
     release: 5
     mergedPR: 289
-    openPR: 27
+    openPR: 31
     closedIssue: 78
     openIssue: 24
-    commit: 293
+    commit: 0
   last720d:
     since: 2024-09-17
     release: 10
     mergedPR: 460
-    openPR: 28
+    openPR: 32
     closedIssue: 167
     openIssue: 32
     commit: 464
 total:
   release: 42
   mergedPR: 833
-  openPR: 28
+  openPR: 32
   closedIssue: 1271
   openIssue: 56
   commit: 1579
 ---
 path: /home/runner/.x-repo/github.com/gokcehan/lf
-collectedAt: 2026-09-07T05:50:35Z
+collectedAt: 2026-09-07T18:47:44Z
 loc:
   Go:
     code: 12168
@@ -258,7 +258,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:50:36+00:00
+  collectedAt: 2026-09-07T18:47:45+00:00
   platform:
     darwin/arm64:
       name:  lf-darwin-arm64.tar.gz
