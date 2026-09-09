@@ -2,12 +2,12 @@ about:
   description: "Terminal file manager"
   license: MIT
   homepage: 
-  head: 281eda3
+  head: efd8e6e
   archived: false
   latestVersion: "r42"
   latestRelease: "r42"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:59:36Z
+  collectedAt: 2026-09-09T20:27:15Z
 timeline:
   created: 2016-08-13
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-07-31
   lastPrerelease: 
 popularity:
-  star: 9496
+  star: 9498
   watcher: 67
   fork: 374
   release: 42
   contributor: 107
-  pullRequest: 1061
+  pullRequest: 1062
   issue: 1327
 language:
   Go: 342021
@@ -36,61 +36,61 @@ recent:
   last30d:
     since: 2026-08-10
     release: 0
-    mergedPR: 8
-    openPR: 6
+    mergedPR: 9
+    openPR: 5
     closedIssue: 0
     openIssue: 2
-    commit: 5
+    commit: 6
   last60d:
     since: 2026-07-11
     release: 1
-    mergedPR: 17
-    openPR: 9
+    mergedPR: 18
+    openPR: 8
     closedIssue: 5
     openIssue: 4
-    commit: 17
+    commit: 18
   last90d:
     since: 2026-06-11
     release: 1
-    mergedPR: 22
-    openPR: 14
+    mergedPR: 23
+    openPR: 13
     closedIssue: 8
     openIssue: 6
-    commit: 22
+    commit: 23
   last180d:
     since: 2026-03-13
     release: 1
-    mergedPR: 126
-    openPR: 27
+    mergedPR: 127
+    openPR: 26
     closedIssue: 29
     openIssue: 16
-    commit: 124
+    commit: 125
   last360d:
     since: 2025-09-14
     release: 5
-    mergedPR: 290
-    openPR: 29
+    mergedPR: 291
+    openPR: 28
     closedIssue: 75
     openIssue: 23
-    commit: 296
+    commit: 297
   last720d:
     since: 2024-09-19
     release: 10
-    mergedPR: 463
-    openPR: 30
+    mergedPR: 464
+    openPR: 29
     closedIssue: 167
     openIssue: 32
-    commit: 467
+    commit: 468
 total:
   release: 42
-  mergedPR: 836
-  openPR: 30
+  mergedPR: 837
+  openPR: 29
   closedIssue: 1271
   openIssue: 56
-  commit: 1582
+  commit: 1583
 ---
 path: /home/runner/.x-repo/github.com/gokcehan/lf
-collectedAt: 2026-09-09T05:59:39Z
+collectedAt: 2026-09-09T20:27:16Z
 loc:
   Go:
     code: 12174
