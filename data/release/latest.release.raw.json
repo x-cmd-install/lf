@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2337597,
       "digest": "sha256:3a3c2180cce9274d5c4713b092cff2b1169db9d9df4334e1c40d485eab1e565a",
-      "download_count": 295,
+      "download_count": 296,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-darwin-amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2172503,
       "digest": "sha256:b08f3249cc9536fe7d9a29746a2de322c247f81cd543db541a770fe49b53bd37",
-      "download_count": 342,
+      "download_count": 343,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-darwin-arm64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2324047,
       "digest": "sha256:c6abe6c0c11a0a4ae89754884aad67de18decc113935cbc5eaa57dc0d1850fb4",
-      "download_count": 1824,
+      "download_count": 1835,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:16Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-linux-amd64.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2109998,
       "digest": "sha256:b8095f4f9d2561340bea019a21ce5a7ac671f4c76402b7039732c003b6c03951",
-      "download_count": 2916,
+      "download_count": 2922,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:16Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-linux-arm64.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 2408423,
       "digest": "sha256:13bb576b02373610dbcfb97e483272198a1b94cada66298a302954d87613465c",
-      "download_count": 1641,
+      "download_count": 1647,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-windows-amd64.zip"
