@@ -47,7 +47,7 @@ x install lf
 
 ## 流行度
 
-- **Star**: 9,503 · **Fork**: 374 · **开放 issue**: 1,327 · **贡献者**: 107
+- **Star**: 9,504 · **Fork**: 374 · **开放 issue**: 1,327 · **贡献者**: 107
 
 ## 累计统计
 
@@ -100,7 +100,7 @@ x install lf
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/lf) 上共有 **129** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**85** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/lf) 上共有 **129** 个发行版报告此项目。**35** 个 ✅ 已是最新上游版本，**84** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -125,4 +125,4 @@ lf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T06:02:22Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T18:52:17Z._

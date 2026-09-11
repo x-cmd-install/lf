@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,503 · **Forks**: 374 · **Open issues**: 1,327 · **Contributors**: 107
+- **Stars**: 9,504 · **Forks**: 374 · **Open issues**: 1,327 · **Contributors**: 107
 
 ## Totals (cumulative)
 
@@ -100,7 +100,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/lf). **34** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/lf). **35** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:02:21Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:52:17Z._
