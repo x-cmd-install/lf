@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 8 | 5 | 0 | 2 | 6 |
-| last60d | 2026-07-12 | 1 | 17 | 7 | 5 | 4 | 18 |
-| 90d | 2026-06-12 | 1 | 22 | 13 | 8 | 6 | 23 |
-| last180d | 2026-03-14 | 1 | 127 | 26 | 29 | 16 | 125 |
-| 360d | 2025-09-15 | 5 | 291 | 28 | 75 | 23 | 297 |
-| last720d | 2024-09-20 | 10 | 464 | 29 | 167 | 32 | 468 |
+| 30d | 2026-08-12 | 0 | 7 | 5 | 0 | 2 | 6 |
+| last60d | 2026-07-13 | 1 | 17 | 7 | 5 | 4 | 18 |
+| 90d | 2026-06-13 | 1 | 22 | 13 | 8 | 6 | 23 |
+| last180d | 2026-03-15 | 1 | 127 | 26 | 28 | 16 | 125 |
+| 360d | 2025-09-16 | 5 | 291 | 28 | 75 | 23 | 297 |
+| last720d | 2024-09-21 | 10 | 464 | 29 | 167 | 32 | 468 |
 
 ## Release assets
 
@@ -100,7 +100,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/lf). **33** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/lf). **34** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -125,4 +125,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:14:47Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:02:21Z._
