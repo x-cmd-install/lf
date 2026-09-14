@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,506 · **Forks**: 374 · **Open issues**: 1,327 · **Contributors**: 107
+- **Stars**: 9,510 · **Forks**: 374 · **Open issues**: 1,328 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 837 · **Open PRs**: 29 · **Closed issues**: 1271 · **Open issues**: 56 · **Commits**: 1583
+- **Releases**: 42 · **Merged PRs**: 837 · **Open PRs**: 29 · **Closed issues**: 1271 · **Open issues**: 57 · **Commits**: 1583
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 5 | 5 | 0 | 2 | 6 |
-| last60d | 2026-07-15 | 1 | 17 | 7 | 5 | 4 | 18 |
-| 90d | 2026-06-15 | 1 | 22 | 12 | 7 | 6 | 23 |
-| last180d | 2026-03-17 | 1 | 124 | 26 | 27 | 15 | 125 |
-| 360d | 2025-09-18 | 5 | 287 | 28 | 75 | 23 | 297 |
-| last720d | 2024-09-23 | 10 | 464 | 29 | 167 | 32 | 468 |
+| 30d | 2026-08-15 | 0 | 5 | 5 | 0 | 3 | 5 |
+| last60d | 2026-07-16 | 1 | 17 | 7 | 5 | 5 | 18 |
+| 90d | 2026-06-16 | 1 | 22 | 12 | 7 | 7 | 21 |
+| last180d | 2026-03-18 | 1 | 123 | 26 | 27 | 16 | 111 |
+| 360d | 2025-09-19 | 5 | 277 | 28 | 75 | 22 | 276 |
+| last720d | 2024-09-24 | 10 | 464 | 29 | 167 | 33 | 468 |
 
 ## Release assets
 
@@ -98,24 +98,6 @@ Lowest-scoring checks:
 | [lf-windows-386.zip](https://github.com/gokcehan/lf/releases/download/r42/lf-windows-386.zip) | 2.2 MiB | `native/win/x64` |
 | [lf-windows-amd64.zip](https://github.com/gokcehan/lf/releases/download/r42/lf-windows-amd64.zip) | 2.3 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **129** distros on [repology.org](https://repology.org/project/lf). **35** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `42` | ✅ latest |
-| Debian 14 | `42` | ✅ latest |
-| Debian 13 | `34` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `38` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `31` | ⚠️ outdated |
-| Arch | `42` | ✅ latest |
-| Homebrew | `42` | ✅ latest |
-| Nix unstable | `42` | ✅ latest |
-| Void | `42` | ✅ latest |
-| Alpine edge | `42` | ✅ latest |
-| openSUSE Tumbleweed | `34` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `lf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -125,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:00:46Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:39:48Z._
