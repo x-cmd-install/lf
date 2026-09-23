@@ -4,7 +4,7 @@
 
 Terminal file manager
 
-[![x-cmd/install — lf Code Quality Monitoring Repo Card](https://repo.x-cmd.io/lf.svg)](https://x-cmd.com/install/lf)
+[![x-cmd/install — lf Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/lf.svg)](https://x-cmd.com/install/lf)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,518 · **Forks**: 375 · **Open issues**: 1,329 · **Contributors**: 107
+- **Stars**: 9,520 · **Forks**: 375 · **Open issues**: 1,329 · **Contributors**: 107
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 7 | 2 | 1 | 2 | 6 |
-| last60d | 2026-07-24 | 1 | 16 | 5 | 5 | 5 | 18 |
-| 90d | 2026-06-24 | 1 | 22 | 11 | 7 | 7 | 22 |
-| last180d | 2026-03-26 | 1 | 103 | 25 | 25 | 16 | 102 |
-| 360d | 2025-09-27 | 4 | 273 | 27 | 74 | 22 | 276 |
-| last720d | 2024-10-02 | 10 | 466 | 28 | 168 | 33 | 470 |
+| 30d | 2026-08-24 | 0 | 6 | 2 | 1 | 2 | 6 |
+| last60d | 2026-07-25 | 1 | 16 | 5 | 4 | 5 | 18 |
+| 90d | 2026-06-25 | 1 | 22 | 11 | 7 | 6 | 22 |
+| last180d | 2026-03-27 | 1 | 102 | 25 | 25 | 16 | 102 |
+| 360d | 2025-09-28 | 4 | 273 | 27 | 74 | 22 | 276 |
+| last720d | 2024-10-03 | 10 | 466 | 28 | 168 | 33 | 470 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:16:03Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:27:15Z._
