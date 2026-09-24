@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2337597,
       "digest": "sha256:3a3c2180cce9274d5c4713b092cff2b1169db9d9df4334e1c40d485eab1e565a",
-      "download_count": 354,
+      "download_count": 358,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-darwin-amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2172503,
       "digest": "sha256:b08f3249cc9536fe7d9a29746a2de322c247f81cd543db541a770fe49b53bd37",
-      "download_count": 405,
+      "download_count": 410,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-darwin-arm64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2324047,
       "digest": "sha256:c6abe6c0c11a0a4ae89754884aad67de18decc113935cbc5eaa57dc0d1850fb4",
-      "download_count": 2397,
+      "download_count": 2444,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:16Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-linux-amd64.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2109998,
       "digest": "sha256:b8095f4f9d2561340bea019a21ce5a7ac671f4c76402b7039732c003b6c03951",
-      "download_count": 3760,
+      "download_count": 3831,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:16Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-linux-arm64.tar.gz"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 2316377,
       "digest": "sha256:ac1a28bf62bfeb99738697d534fb0346535e5a457bafbcc502df2a88865f062f",
-      "download_count": 262,
+      "download_count": 265,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-windows-386.zip"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 2408423,
       "digest": "sha256:13bb576b02373610dbcfb97e483272198a1b94cada66298a302954d87613465c",
-      "download_count": 1898,
+      "download_count": 1919,
       "created_at": "2026-07-31T07:16:16Z",
       "updated_at": "2026-07-31T07:16:17Z",
       "browser_download_url": "https://github.com/gokcehan/lf/releases/download/r42/lf-windows-amd64.zip"
@@ -1086,13 +1086,13 @@
   "body": "### Changed\r\n\r\n- The key `<backspace2>` has been renamed to `<backspace>` for `map` keybindings (#2286).\r\n- `.Stat.DirSize` and `.Stat.DirCount` in the ruler file no longer have a pointer type, and will be set to `-1` instead of `nil` if the corresponding value cannot be determined (#2397).\r\n- `setlocal` commands no longer support the ability to specify recursive directories (#2415). For use cases where `setlocal` should apply to a directory based on some condition, it is recommended to script this inside the `on-load` hook command.\r\n- On Windows, files are now considered executable according to `PATHEXT` when matching colors and icons (#2448).\r\n- The `rulerfmt` and `statfmt` options are now marked as deprecated in favor of using the ruler file (configured using the `rulerfile` option), and will be removed in a future release (#2477).\r\n- The client server connection will now exclusively use Unix domain sockets on Windows and no longer fall back to TCP sockets (#2527).\r\n- The fallback location of the server socket (used if `XDG_RUNTIME_DIR` is not defined) is changed from `/tmp/lf.<user>.sock` to `/tmp/lf-<uid>/lf.sock`, and the containing directory must be owned by the current user (#2532).\r\n- The `ignorecase` and `ignoredia` options (intended for searching) no longer affect sorting, and instead `sortignorecase` and `sortignoredia` have been added to customize sorting (#2543).\r\n- Previews are now marked as binary if they contain a control character other than bell, backspace, tab, newline, vertical tab, form feed, carriage return, escape or delete (#2561). Previously only null bytes were used to detect binary previews.\r\n\r\n### Added\r\n\r\n- Emoji sequences containing Zero Width Joiner characters are now displayed as a single combined glyph (#2286).\r\n- Key combinations such as `<c-h>` and `<backspace>` can now be distinguished when supported by the terminal (#2286) (#2496).\r\n- A new field `.All` is added to the `ruler` file to display the number of all files (i.e. visible + hidden) in the current working directory (#2376).\r\n- A new option `numbercursorfmt` is added to further customize the appearance of line numbers (#2395).\r\n- The `loading...` message delay of 100 milliseconds for file previews is now applied to directories as well (#2410).\r\n- `lf` will now automatically change to the parent directory if the current directory no longer exists and the `watch` option is enabled (#2424).\r\n- A new option `terminalcursor` is added to customize the appearance of the terminal cursor (#2441).\r\n- A new option `borderstyle` is added to control whether `drawbox` draws an outline, separators, or both (#2445). This also replaces the existing `roundbox` option.\r\n\r\n### Fixed\r\n\r\n- Previews are now cleaned when changing to an empty directory (#2369).\r\n- The `dircounts` indicator for errors is changed back to `!` instead of `?` (#2372).\r\n- Previews are now correctly updated on `visual-change` (#2373).\r\n- The `select` command can now select files immediately after creation as part of a script (#2377).\r\n- The `on-load` hook command now ignores `.git` directories to reduce flicker and repeated `on-load` triggers (#2382).\r\n- Preview messages like `empty` or `loading...` have their alignment improved (#2400).\r\n- A bug where the `loading...` message was not displayed for volatile previews after the first time is now fixed (#2410).\r\n- The `cmd-transpose` command now advances the cursor correctly after swapping characters (#2413).\r\n- Symbolic links are no longer followed when changing directories (#2423).\r\n- Using the `select` command with a blank string as the argument now properly raises an error instead of changing to the parent directory (#2429).\r\n- The number of bytes read is now limited for previews that contain extremely long lines (#2458).\r\n- Control characters are now stripped from previews to prevent dangerous terminal sequences from being processed if the default previewer is used (#2459).\r\n- Various fixes have been made to sanitize input data and prevent terminal sequence injection (#2467) (#2540) (#2542) (#2546) (#2590) (#2603).\r\n- Sixel images with the same height as the preview window are now displayed correctly when using `tmux` (#2474).\r\n- A bug where previews were loaded according to the old dimensions of the preview window following a terminal resize is now fixed (#2491).\r\n- Completion matches are now properly aligned if they contain terminal sequences (#2511).\r\n- `load` commands are now processed when the `watch` option is enabled, which should fix various issues with refreshing updated files/directories (#2513).\r\n- Parsing octal values in strings are now restricted to numbers between `0` and `255` (#2516).\r\n- Color values are now validated (must be between `0` and `255`) when parsing terminal sequences (#2517).\r\n- Directories are now refreshed properly after using the `cd` command (#2518).\r\n- Successfully copied files are no longer deleted if their timestamps could not be preserved (#2519).\r\n- Previews no longer flicker when the terminal height decreases (#2537).\r\n- Symbolic linked directories are now updated properly when the `watch` option is enabled (#2550).\r\n- Previews of modified files are now updated properly when the `preload` option is enabled (#2567).\r\n- Previews of files other than the current file are now reloaded immediately after being modified when the `watch` option is enabled (#2594) (#2602) (#2648).\r\n- The `loading...` message now shows for files that are reloading due to being modified (#2597).\r\n- Attempting to copy a directory into itself will now result in an error (#2608) (#2623).\r\n- The permissions of state files (i.e. `files`/`history`/`marks`/`tags`) is now changed to only be accessible by the owner (#2612).\r\n- Broken symbolic links are no longer silently overwritten when moving files (#2619).\r\n- Using the `copy` or `cut` command with a path containing newline characters now results in an error instead of silently omitting the path (#2620).\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/gokcehan/lf/releases/362906251/reactions",
-    "total_count": 14,
+    "total_count": 15,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 14,
+    "heart": 15,
     "rocket": 0,
     "eyes": 0
   }
