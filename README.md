@@ -14,11 +14,11 @@ x install lf
 
 ## Code insight
 
-Total: **12,404** lines of code across **42** files in the top 5 languages.
+Total: **12,400** lines of code across **42** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 12,177 | 346 | 1,594 | 35 |
+| Go | 12,173 | 346 | 1,594 | 35 |
 | Sh | 70 | 45 | 20 | 4 |
 | Lua | 33 | 7 | 5 | 1 |
 | VimScript | 26 | 7 | 1 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `r42` (2026-07-31)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-28
 - **Assets in release**: 29
 
 ## Popularity
 
-- **Stars**: 9,522 · **Forks**: 375 · **Open issues**: 1,330 · **Contributors**: 107
+- **Stars**: 9,522 · **Forks**: 376 · **Open issues**: 1,330 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 840 · **Open PRs**: 24 · **Closed issues**: 1272 · **Open issues**: 58 · **Commits**: 1586
+- **Releases**: 42 · **Merged PRs**: 842 · **Open PRs**: 25 · **Closed issues**: 1273 · **Open issues**: 57 · **Commits**: 1588
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 6 | 4 | 1 | 3 | 7 |
-| last60d | 2026-07-30 | 1 | 15 | 5 | 4 | 6 | 14 |
-| 90d | 2026-06-30 | 1 | 22 | 12 | 7 | 7 | 23 |
-| last180d | 2026-04-01 | 1 | 100 | 21 | 24 | 17 | 100 |
-| 360d | 2025-10-03 | 4 | 270 | 23 | 71 | 23 | 275 |
-| last720d | 2024-10-08 | 10 | 465 | 24 | 167 | 34 | 471 |
+| 30d | 2026-08-30 | 0 | 8 | 5 | 2 | 2 | 9 |
+| last60d | 2026-07-31 | 1 | 14 | 6 | 3 | 5 | 16 |
+| 90d | 2026-07-01 | 1 | 24 | 11 | 7 | 6 | 25 |
+| last180d | 2026-04-02 | 1 | 102 | 22 | 24 | 16 | 102 |
+| 360d | 2025-10-04 | 4 | 272 | 24 | 72 | 22 | 277 |
+| last720d | 2024-10-09 | 10 | 465 | 25 | 167 | 33 | 471 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:26:07Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:46:56Z._
