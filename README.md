@@ -26,13 +26,13 @@ Total: **12,407** lines of code across **42** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.3 / 10**
+Overall score: **4.1 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 9/23 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `r42` (2026-07-31)
-- **Last commit**: 2026-10-01
+- **Last commit**: 2026-10-06
 - **Assets in release**: 29
 
 ## Popularity
 
-- **Stars**: 9,532 · **Forks**: 380 · **Open issues**: 1,332 · **Contributors**: 107
+- **Stars**: 9,535 · **Forks**: 380 · **Open issues**: 1,332 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 844 · **Open PRs**: 28 · **Closed issues**: 1277 · **Open issues**: 55 · **Commits**: 1590
+- **Releases**: 42 · **Merged PRs**: 845 · **Open PRs**: 28 · **Closed issues**: 1277 · **Open issues**: 55 · **Commits**: 1591
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 9 | 8 | 3 | 2 | 7 |
-| last60d | 2026-08-07 | 0 | 15 | 9 | 4 | 5 | 16 |
-| 90d | 2026-07-08 | 1 | 26 | 13 | 8 | 7 | 25 |
-| last180d | 2026-04-09 | 1 | 97 | 24 | 20 | 16 | 88 |
-| 360d | 2025-10-11 | 4 | 270 | 27 | 73 | 21 | 275 |
-| last720d | 2024-10-16 | 10 | 466 | 28 | 169 | 31 | 470 |
+| 30d | 2026-09-07 | 0 | 9 | 7 | 3 | 2 | 8 |
+| last60d | 2026-08-08 | 0 | 16 | 9 | 4 | 5 | 17 |
+| 90d | 2026-07-09 | 1 | 26 | 13 | 8 | 6 | 26 |
+| last180d | 2026-04-10 | 1 | 97 | 24 | 20 | 15 | 89 |
+| 360d | 2025-10-12 | 4 | 270 | 27 | 73 | 21 | 276 |
+| last720d | 2024-10-17 | 10 | 467 | 28 | 169 | 31 | 471 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:28:30Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:05:18Z._
