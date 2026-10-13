@@ -14,11 +14,11 @@ x install lf
 
 ## Code insight
 
-Total: **12,407** lines of code across **42** files in the top 5 languages.
+Total: **12,410** lines of code across **42** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 12,180 | 346 | 1,594 | 35 |
+| Go | 12,183 | 346 | 1,594 | 35 |
 | Sh | 70 | 45 | 20 | 4 |
 | Lua | 33 | 7 | 5 | 1 |
 | VimScript | 26 | 7 | 1 | 1 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `r42` (2026-07-31)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-12
 - **Assets in release**: 29
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 846 · **Open PRs**: 27 · **Closed issues**: 1278 · **Open issues**: 55 · **Commits**: 1592
+- **Releases**: 42 · **Merged PRs**: 847 · **Open PRs**: 27 · **Closed issues**: 1278 · **Open issues**: 55 · **Commits**: 1593
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 8 | 8 | 4 | 2 | 7 |
-| last60d | 2026-08-13 | 0 | 13 | 8 | 4 | 4 | 14 |
-| 90d | 2026-07-14 | 1 | 25 | 10 | 9 | 6 | 27 |
-| last180d | 2026-04-15 | 1 | 81 | 20 | 20 | 14 | 82 |
-| 360d | 2025-10-17 | 4 | 270 | 26 | 73 | 21 | 265 |
-| last720d | 2024-10-22 | 10 | 466 | 27 | 169 | 31 | 472 |
+| 30d | 2026-09-13 | 0 | 9 | 8 | 3 | 2 | 8 |
+| last60d | 2026-08-14 | 0 | 14 | 8 | 4 | 4 | 15 |
+| 90d | 2026-07-15 | 1 | 26 | 10 | 9 | 6 | 28 |
+| last180d | 2026-04-16 | 1 | 81 | 20 | 20 | 14 | 83 |
+| 360d | 2025-10-18 | 4 | 270 | 26 | 72 | 21 | 266 |
+| last720d | 2024-10-23 | 10 | 467 | 27 | 169 | 31 | 471 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T07:11:03Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T07:56:02Z._
