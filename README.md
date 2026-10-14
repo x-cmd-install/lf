@@ -30,7 +30,7 @@ Overall score: **4.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 9/23 approved changesets -- score normalized to 3
+- **Code-Review** (3/10) — Found 8/23 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,550 · **Forks**: 382 · **Open issues**: 1,333 · **Contributors**: 107
+- **Stars**: 9,552 · **Forks**: 382 · **Open issues**: 1,333 · **Contributors**: 107
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 847 · **Open PRs**: 27 · **Closed issues**: 1278 · **Open issues**: 55 · **Commits**: 1593
+- **Releases**: 42 · **Merged PRs**: 847 · **Open PRs**: 26 · **Closed issues**: 1278 · **Open issues**: 55 · **Commits**: 1593
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 9 | 8 | 3 | 2 | 8 |
-| last60d | 2026-08-14 | 0 | 14 | 8 | 4 | 4 | 15 |
-| 90d | 2026-07-15 | 1 | 26 | 10 | 9 | 6 | 28 |
-| last180d | 2026-04-16 | 1 | 81 | 20 | 20 | 14 | 83 |
-| 360d | 2025-10-18 | 4 | 270 | 26 | 72 | 21 | 266 |
-| last720d | 2024-10-23 | 10 | 467 | 27 | 169 | 31 | 471 |
+| 30d | 2026-09-14 | 0 | 8 | 7 | 3 | 2 | 8 |
+| last60d | 2026-08-15 | 0 | 14 | 7 | 4 | 4 | 15 |
+| 90d | 2026-07-16 | 1 | 26 | 9 | 9 | 6 | 28 |
+| last180d | 2026-04-17 | 1 | 80 | 18 | 19 | 14 | 83 |
+| 360d | 2025-10-19 | 4 | 267 | 24 | 72 | 21 | 266 |
+| last720d | 2024-10-24 | 10 | 467 | 26 | 169 | 31 | 471 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:56:02Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:02:24Z._
