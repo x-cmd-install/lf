@@ -47,7 +47,7 @@ x install lf
 
 ## 流行度
 
-- **Star**: 9,567 · **Fork**: 388 · **开放 issue**: 1,334 · **贡献者**: 107
+- **Star**: 9,571 · **Fork**: 388 · **开放 issue**: 1,334 · **贡献者**: 107
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install lf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 7 | 11 | 2 | 3 | 8 |
-| last60d | 2026-08-23 | 0 | 14 | 11 | 4 | 4 | 14 |
-| 90d | 2026-07-24 | 1 | 23 | 12 | 8 | 7 | 28 |
-| last180d | 2026-04-25 | 1 | 70 | 21 | 19 | 15 | 76 |
-| 360d | 2025-10-27 | 4 | 253 | 28 | 69 | 21 | 251 |
-| last720d | 2024-11-01 | 10 | 463 | 30 | 166 | 31 | 471 |
+| 30d | 2026-09-23 | 0 | 7 | 11 | 2 | 3 | 8 |
+| last60d | 2026-08-24 | 0 | 13 | 11 | 4 | 4 | 14 |
+| 90d | 2026-07-25 | 1 | 23 | 12 | 7 | 7 | 28 |
+| last180d | 2026-04-26 | 1 | 69 | 21 | 19 | 14 | 76 |
+| 360d | 2025-10-28 | 4 | 249 | 28 | 69 | 21 | 251 |
+| last720d | 2024-11-02 | 9 | 461 | 30 | 165 | 31 | 467 |
 
 ## Release 资产
 
@@ -98,6 +98,24 @@ x install lf
 | [lf-windows-386.zip](https://github.com/gokcehan/lf/releases/download/r42/lf-windows-386.zip) | 2.2 MiB | `native/win/x64` |
 | [lf-windows-amd64.zip](https://github.com/gokcehan/lf/releases/download/r42/lf-windows-amd64.zip) | 2.3 MiB | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/lf) 上共有 **131** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `42` | ✅ latest |
+| Debian 14 | `42` | ✅ latest |
+| Debian 13 | `34` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `38` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `31` | ⚠️ outdated |
+| Arch | `42` | ✅ latest |
+| Homebrew | `42` | ✅ latest |
+| Nix unstable | `42` | ✅ latest |
+| Void | `42` | ✅ latest |
+| Alpine edge | `42` | ✅ latest |
+| openSUSE Tumbleweed | `34` | ⚠️ outdated |
+
 ## 改进这些数据
 
 lf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `lf` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +125,4 @@ lf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:47:11Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:45:06Z._
