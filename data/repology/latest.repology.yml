@@ -1,68 +1,17 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: lf
   binnames:
     - lf
   visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
     - misc
-- repo: scoop
-  subrepo: main
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: r42
-  status: newest
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: lf
-  visiblename: lf
-  version: "42"
-  origversion: null
-  status: newest
-  summary: Terminal file manager
-- repo: homebrew
-  srcname: lf
-  visiblename: lf
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal file manager
-- repo: kali_rolling
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: solus
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: null
-  status: newest
-  summary: A terminal file manager written in go
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - system.utils
 - repo: alpine_3_17
   subrepo: community
   srcname: lf
@@ -165,17 +114,6 @@
   summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
   maintainers:
     - m@milesalan.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-man
-  visiblename: lf-man
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager (manual pages)
   licenses:
     - MIT
 - repo: alpine_3_18
@@ -321,17 +259,6 @@
     - m@milesalan.com
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-nucomp
-  visiblename: lf-nucomp
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager (nu completions)
-  licenses:
-    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: lf
@@ -475,14 +402,6 @@
     - james@chen-smith.net
   licenses:
     - MIT
-- repo: gnuguix
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "41"
-  origversion: null
-  status: outdated
-  summary: Console file browser similar to Ranger
 - repo: alpine_3_23
   subrepo: community
   srcname: lf
@@ -803,6 +722,28 @@
 - repo: chimera
   subrepo: user
   srcname: lf
+  binname: lf-man
+  visiblename: lf-man
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
+  binname: lf-nucomp
+  visiblename: lf-nucomp
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (nu completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
   binname: lf-zshcomp
   visiblename: lf-zshcomp
   version: "41"
@@ -914,6 +855,18 @@
     - yuri@freebsd.org
   categories:
     - misc
+- repo: pkgsrc_2026_2
+  srcname: sysutils/lf
+  binname: lf
+  visiblename: sysutils/lf
+  version: "34"
+  origversion: 34nb16
+  status: outdated
+  summary: Terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -987,6 +940,42 @@
     - BSD
   categories:
     - app-misc
+- repo: gnuguix
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "41"
+  origversion: null
+  status: outdated
+  summary: Console file browser similar to Ranger
+- repo: homebrew
+  srcname: lf
+  visiblename: lf
+  version: "42"
+  origversion: null
+  status: newest
+  summary: Terminal file manager
+- repo: homebrew
+  srcname: lf
+  visiblename: lf
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal file manager
+- repo: kali_rolling
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1376,20 +1365,6 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
 - repo: pisi_main
   subrepo: main
   srcname: util/misc/lf
@@ -1404,24 +1379,12 @@
     - MIT
   categories:
     - app:console
-- repo: pkgsrc_2026_2
-  srcname: sysutils/lf
-  binname: lf
-  visiblename: sysutils/lf
-  version: "34"
-  origversion: 34nb16
-  status: outdated
-  summary: Terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: pkgsrc_2026_3
   srcname: sysutils/lf
   binname: lf
   visiblename: sysutils/lf
   version: "34"
-  origversion: 34nb20
+  origversion: 34nb21
   status: outdated
   summary: Terminal file manager
   maintainers:
@@ -1482,6 +1445,29 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: r42
+  status: newest
+  licenses:
+    - MIT
 - repo: side
   srcname: system/base/lf
   visiblename: lf
@@ -1503,6 +1489,20 @@
     - ricardsonwilliams+slackbuild@gmail.com
   categories:
     - system
+- repo: solus
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: null
+  status: newest
+  summary: A terminal file manager written in go
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - system.utils
 - repo: solus
   srcname: lf
   binname: lf-dbginfo
