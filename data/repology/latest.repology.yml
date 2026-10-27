@@ -1,17 +1,43 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: manjaro_testing
+  subrepo: extra
   srcname: lf
-  binnames:
-    - lf
+  binname: lf
   visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: lf
+  visiblename: lf (as in "list files")
+  version: "0.26"
+  origversion: null
   status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
+  summary: lf (as in "list files") is a terminal file manager written in Go.
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: lf
@@ -752,13 +778,6 @@
   summary: Terminal file manager (zsh completions)
   licenses:
     - MIT
-- repo: chocolatey
-  binname: lf
-  visiblename: lf (as in "list files")
-  version: "0.26"
-  origversion: null
-  status: outdated
-  summary: lf (as in "list files") is a terminal file manager written in Go.
 - repo: debian_12
   subrepo: bookworm/main
   srcname: lf
@@ -855,18 +874,6 @@
     - yuri@freebsd.org
   categories:
     - misc
-- repo: pkgsrc_2026_2
-  srcname: sysutils/lf
-  binname: lf
-  visiblename: sysutils/lf
-  version: "34"
-  origversion: 34nb16
-  status: outdated
-  summary: Terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1103,39 +1110,18 @@
     - MIT
   categories:
     - sysutils
-- repo: manjaro_stable
-  subrepo: extra
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: lf
-  binname: lf
   visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
+  version: "31"
+  origversion: 31-bp156.1.11
+  status: outdated
+  summary: Terminal file manager (with sixel support)
   licenses:
     - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
-  licenses:
-    - MIT
+  categories:
+    - Productivity/File utilities
 - repo: msys2_clang64
   srcname: mingw-w64-lf
   binname: mingw-w64-clang-x86_64-lf
@@ -1287,18 +1273,6 @@
     - MIT
   categories:
     - Filesystem
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: lf
-  visiblename: lf
-  version: "31"
-  origversion: 31-bp156.1.11
-  status: outdated
-  summary: Terminal file manager (with sixel support)
-  licenses:
-    - MIT
-  categories:
-    - Productivity/File utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: lf
@@ -1365,6 +1339,20 @@
     - nickm@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: pisi_main
   subrepo: main
   srcname: util/misc/lf
@@ -1379,6 +1367,18 @@
     - MIT
   categories:
     - app:console
+- repo: pkgsrc_2026_2
+  srcname: sysutils/lf
+  binname: lf
+  visiblename: sysutils/lf
+  version: "34"
+  origversion: 34nb16
+  status: outdated
+  summary: Terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: pkgsrc_2026_3
   srcname: sysutils/lf
   binname: lf
