@@ -1,5 +1,26 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: scoop
+  subrepo: main
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: r42
+  status: newest
+  licenses:
+    - MIT
+- repo: aur
+  srcname: lf-git
+  binname: lf-git
+  visiblename: lf-git
+  version: 22.r2.g8739087
+  origversion: 22.r2.g8739087-1
+  status: rolling
+  summary: lf is a terminal file manager written in Go
+  maintainers:
+    - sebastka@aur
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
   srcname: lf
   binname: lf
   visiblename: lf
@@ -9,15 +30,49 @@
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: carbs
+  subrepo: community
+  srcname: lf
+  visiblename: lf
+  version: "31"
+  origversion: null
+  status: outdated
+  summary: Terminal file manager in Go
+  maintainers:
+    - cem@carbslinux.org
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
   srcname: lf
   binname: lf
   visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
+  binname: lf-bashcomp
+  visiblename: lf-bashcomp
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (bash completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (documentation)
   licenses:
     - MIT
 - repo: chocolatey
@@ -27,17 +82,6 @@
   origversion: null
   status: outdated
   summary: lf (as in "list files") is a terminal file manager written in Go.
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: lf
@@ -129,6 +173,20 @@
     - m@milesalan.com
   licenses:
     - MIT
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "28"
+  origversion: 28-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: lf
@@ -666,74 +724,6 @@
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-- repo: aur
-  srcname: lf-git
-  binname: lf-git
-  visiblename: lf-git
-  version: 22.r2.g8739087
-  origversion: 22.r2.g8739087-1
-  status: rolling
-  summary: lf is a terminal file manager written in Go
-  maintainers:
-    - sebastka@aur
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
-  licenses:
-    - MIT
-- repo: carbs
-  subrepo: community
-  srcname: lf
-  visiblename: lf
-  version: "31"
-  origversion: null
-  status: outdated
-  summary: Terminal file manager in Go
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-bashcomp
-  visiblename: lf-bashcomp
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager (bash completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager (documentation)
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: lf
@@ -778,20 +768,17 @@
   summary: Terminal file manager (zsh completions)
   licenses:
     - MIT
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: manjaro_testing
+  subrepo: extra
   srcname: lf
-  binnames:
-    - lf
+  binname: lf
   visiblename: lf
-  version: "28"
-  origversion: 28-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
+  licenses:
+    - MIT
 - repo: debian_13
   subrepo: trixie/main
   srcname: lf
@@ -904,6 +891,18 @@
     - BSD
   categories:
     - app-misc
+- repo: pkgsrc_current
+  srcname: sysutils/lf
+  binname: lf
+  visiblename: sysutils/lf
+  version: "34"
+  origversion: 34nb22
+  status: outdated
+  summary: Terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1067,6 +1066,20 @@
     - BSD
   categories:
     - app-misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - utils
 - repo: liguros_develop
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1110,18 +1123,17 @@
     - MIT
   categories:
     - sysutils
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
+- repo: manjaro_stable
+  subrepo: extra
   srcname: lf
+  binname: lf
   visiblename: lf
-  version: "31"
-  origversion: 31-bp156.1.11
-  status: outdated
-  summary: Terminal file manager (with sixel support)
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-  categories:
-    - Productivity/File utilities
 - repo: msys2_clang64
   srcname: mingw-w64-lf
   binname: mingw-w64-clang-x86_64-lf
@@ -1273,6 +1285,18 @@
     - MIT
   categories:
     - Filesystem
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: lf
+  visiblename: lf
+  version: "31"
+  origversion: 31-bp156.1.11
+  status: outdated
+  summary: Terminal file manager (with sixel support)
+  licenses:
+    - MIT
+  categories:
+    - Productivity/File utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: lf
@@ -1326,7 +1350,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: lf
   binnames:
     - lf
@@ -1340,7 +1364,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: lf
   binnames:
     - lf
@@ -1391,32 +1415,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/lf
-  binname: lf
-  visiblename: sysutils/lf
-  version: "34"
-  origversion: 34nb22
-  status: outdated
-  summary: Terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - utils
 - repo: raspbian_oldstable
   subrepo: main
   srcname: lf
@@ -1431,43 +1429,6 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: r42
-  status: newest
-  licenses:
-    - MIT
 - repo: side
   srcname: system/base/lf
   visiblename: lf
@@ -1666,3 +1627,42 @@
   summary: Terminal file manager
   maintainers:
     - wonkru-dev@proton.me
+- repo: raspbian_stable
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
+  licenses:
+    - MIT
