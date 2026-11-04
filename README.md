@@ -14,11 +14,11 @@ x install lf
 
 ## Code insight
 
-Total: **12,418** lines of code across **42** files in the top 5 languages.
+Total: **12,430** lines of code across **42** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 12,191 | 346 | 1,594 | 35 |
+| Go | 12,203 | 346 | 1,596 | 35 |
 | Sh | 70 | 45 | 20 | 4 |
 | Lua | 33 | 7 | 5 | 1 |
 | VimScript | 26 | 7 | 1 | 1 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `r42` (2026-07-31)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-03
 - **Assets in release**: 29
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 856 · **Open PRs**: 26 · **Closed issues**: 1284 · **Open issues**: 54 · **Commits**: 1602
+- **Releases**: 42 · **Merged PRs**: 857 · **Open PRs**: 25 · **Closed issues**: 1284 · **Open issues**: 54 · **Commits**: 1603
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 11 | 6 | 3 | 3 | 11 |
-| last60d | 2026-09-04 | 0 | 21 | 9 | 7 | 4 | 21 |
-| 90d | 2026-08-05 | 0 | 27 | 9 | 8 | 7 | 30 |
-| last180d | 2026-05-07 | 1 | 67 | 18 | 22 | 11 | 70 |
-| 360d | 2025-11-08 | 4 | 247 | 24 | 73 | 19 | 245 |
-| last720d | 2024-11-13 | 9 | 457 | 25 | 166 | 29 | 463 |
+| 30d | 2026-10-05 | 0 | 12 | 5 | 3 | 3 | 12 |
+| last60d | 2026-09-05 | 0 | 22 | 8 | 7 | 4 | 22 |
+| 90d | 2026-08-06 | 0 | 28 | 8 | 8 | 7 | 31 |
+| last180d | 2026-05-08 | 1 | 68 | 17 | 22 | 11 | 71 |
+| 360d | 2025-11-09 | 4 | 248 | 23 | 73 | 19 | 246 |
+| last720d | 2024-11-14 | 9 | 458 | 24 | 166 | 29 | 463 |
 
 ## Release assets
 
@@ -110,7 +110,7 @@ Reported by **132** distros on [repology.org](https://repology.org/project/lf). 
 | Ubuntu 26.04 LTS | `38` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `31` | ⚠️ outdated |
 | Arch | `42` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `42` | ✅ latest |
 | Nix unstable | `42` | ✅ latest |
 | Void | `42` | ✅ latest |
 | Alpine edge | `42` | ✅ latest |
@@ -125,4 +125,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:57:06Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:35:20Z._
