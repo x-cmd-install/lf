@@ -1,65 +1,58 @@
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "28"
-  origversion: 28-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
-- repo: chimera
-  subrepo: user
+- repo: parabola
+  subrepo: extra
   srcname: lf
   binname: lf
   visiblename: lf
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-bashcomp
-  visiblename: lf-bashcomp
-  version: "41"
-  origversion: 41-r6
+- repo: chocolatey
+  binname: lf
+  visiblename: lf (as in "list files")
+  version: "0.26"
+  origversion: null
   status: outdated
-  summary: Terminal file manager (bash completions)
+  summary: lf (as in "list files") is a terminal file manager written in Go.
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
   licenses:
     - MIT
 - repo: alpine_3_17
@@ -88,45 +81,6 @@
     - m@milesalan.com
   licenses:
     - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: lf
@@ -153,6 +107,17 @@
     - m@milesalan.com
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
+  binname: lf-bashcomp
+  visiblename: lf-bashcomp
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (bash completions)
+  licenses:
+    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: lf
@@ -166,16 +131,6 @@
     - m@milesalan.com
   licenses:
     - MIT
-- repo: vylen
-  subrepo: extra
-  srcname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: Terminal file manager
-  maintainers:
-    - wonkru-dev@proton.me
 - repo: alpine_3_18
   subrepo: community
   srcname: lf
@@ -738,6 +693,17 @@
 - repo: chimera
   subrepo: user
   srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
   binname: lf-doc
   visiblename: lf-doc
   version: "41"
@@ -790,13 +756,6 @@
   summary: Terminal file manager (zsh completions)
   licenses:
     - MIT
-- repo: chocolatey
-  binname: lf
-  visiblename: lf (as in "list files")
-  version: "0.26"
-  origversion: null
-  status: outdated
-  summary: lf (as in "list files") is a terminal file manager written in Go.
 - repo: debian_12
   subrepo: bookworm/main
   srcname: lf
@@ -1086,18 +1045,6 @@
     - BSD
   categories:
     - app-misc
-- repo: pkgsrc_current
-  srcname: sysutils/lf
-  binname: lf
-  visiblename: sysutils/lf
-  version: "34"
-  origversion: 34nb22
-  status: outdated
-  summary: Terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: liguros_develop
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1146,9 +1093,9 @@
   srcname: lf
   binname: lf
   visiblename: lf
-  version: "30"
-  origversion: 30-1
-  status: outdated
+  version: "42"
+  origversion: 42-1
+  status: newest
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
@@ -1157,9 +1104,9 @@
   srcname: lf
   binname: lf
   visiblename: lf
-  version: "31"
-  origversion: 31-1
-  status: outdated
+  version: "42"
+  origversion: 42-1
+  status: newest
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
@@ -1174,6 +1121,18 @@
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: lf
+  visiblename: lf
+  version: "31"
+  origversion: 31-bp156.1.11
+  status: outdated
+  summary: Terminal file manager (with sixel support)
+  licenses:
+    - MIT
+  categories:
+    - Productivity/File utilities
 - repo: msys2_clang64
   srcname: mingw-w64-lf
   binname: mingw-w64-clang-x86_64-lf
@@ -1298,20 +1257,6 @@
     - MIT
   categories:
     - File tools
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: lf
@@ -1328,29 +1273,6 @@
     - MIT
   categories:
     - File tools
-- repo: openpkg_current
-  srcname: lf
-  visiblename: lf
-  version: "40.20251211"
-  origversion: null
-  status: outdated
-  summary: Terminal File Manager
-  licenses:
-    - MIT
-  categories:
-    - Filesystem
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: lf
-  visiblename: lf
-  version: "31"
-  origversion: 31-bp156.1.11
-  status: outdated
-  summary: Terminal file manager (with sixel support)
-  licenses:
-    - MIT
-  categories:
-    - Productivity/File utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: lf
@@ -1392,17 +1314,6 @@
   summary: Terminal file manager written in Go
   maintainers:
     - romariorobby@yahoo.com
-- repo: parabola
-  subrepo: extra
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: A terminal file manager inspired by ranger
-  licenses:
-    - MIT
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: lf
@@ -1469,6 +1380,18 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/lf
+  binname: lf
+  visiblename: sysutils/lf
+  version: "34"
+  origversion: 34nb22
+  status: outdated
+  summary: Terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: lf
@@ -1483,6 +1406,48 @@
     - nickm@debian.org
   categories:
     - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "28"
+  origversion: 28-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: lf
@@ -1503,6 +1468,16 @@
     - uglyside@yandex.ru
   licenses:
     - MIT
+- repo: vylen
+  subrepo: extra
+  srcname: lf
+  visiblename: lf
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: Terminal file manager
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: slackbuilds
   srcname: system/lf
   visiblename: system/lf
@@ -1584,20 +1559,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "31"
-  origversion: 31+ds-1ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: lf
   binnames:
@@ -1608,6 +1569,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "31"
+  origversion: 31+ds-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - nickm@debian.org
   categories:
     - universe/misc
@@ -1648,6 +1623,34 @@
   version: "38"
   origversion: 38+ds-1
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-1
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
