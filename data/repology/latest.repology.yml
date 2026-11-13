@@ -1,417 +1,84 @@
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
-- repo: kali_rolling
+- repo: raspbian_stable
   subrepo: main
   srcname: lf
   binnames:
     - lf
   visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
+  version: "34"
+  origversion: 34+ds-2
+  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
   categories:
     - misc
+- repo: carbs
+  subrepo: community
+  srcname: lf
+  visiblename: lf
+  version: "31"
+  origversion: null
+  status: outdated
+  summary: Terminal file manager in Go
+  maintainers:
+    - cem@carbslinux.org
+  licenses:
+    - MIT
 - repo: chimera
   subrepo: user
   srcname: lf
-  binname: lf-fishcomp
-  visiblename: lf-fishcomp
+  binname: lf
+  visiblename: lf
   version: "41"
   origversion: 41-r6
   status: outdated
-  summary: Terminal file manager (fish completions)
+  summary: Terminal file manager
   licenses:
     - MIT
-- repo: alpine_3_17
-  subrepo: community
+- repo: nix_stable_25_05
   srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Fish completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lf
-  binname: lf-zsh-completion
-  visiblename: lf-zsh-completion
-  version: "27"
-  origversion: 27-r9
-  status: outdated
-  summary: Zsh completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "29"
-  origversion: 29-r4
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "29"
-  origversion: 29-r4
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "29"
-  origversion: 29-r4
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "29"
-  origversion: 29-r4
-  status: outdated
-  summary: Fish completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: lf
-  binname: lf-zsh-completion
-  visiblename: lf-zsh-completion
-  version: "29"
-  origversion: 29-r4
-  status: outdated
-  summary: Zsh completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "31"
-  origversion: 31-r4
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "31"
-  origversion: 31-r4
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "31"
-  origversion: 31-r4
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "31"
-  origversion: 31-r4
-  status: outdated
-  summary: Fish completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: lf
-  binname: lf-zsh-completion
-  visiblename: lf-zsh-completion
-  version: "31"
-  origversion: 31-r4
-  status: outdated
-  summary: Zsh completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "32"
-  origversion: 32-r3
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "32"
-  origversion: 32-r3
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "32"
-  origversion: 32-r3
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "32"
-  origversion: 32-r3
-  status: outdated
-  summary: Fish completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: lf
-  binname: lf-zsh-completion
-  visiblename: lf-zsh-completion
-  version: "32"
-  origversion: 32-r3
-  status: outdated
-  summary: Zsh completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "32"
-  origversion: 32-r8
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "32"
-  origversion: 32-r8
-  status: outdated
-  summary: Bash completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "32"
-  origversion: 32-r8
-  status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "32"
-  origversion: 32-r8
-  status: outdated
-  summary: Fish completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: lf
-  binname: lf-zsh-completion
-  visiblename: lf-zsh-completion
-  version: "32"
-  origversion: 32-r8
-  status: outdated
-  summary: Zsh completions for lf
-  maintainers:
-    - m@milesalan.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: lf
-  binname: lf
   visiblename: lf
   version: "35"
-  origversion: 35-r6
+  origversion: null
   status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings
+  summary: Terminal file manager written in Go and heavily inspired by ranger
   maintainers:
-    - james@chen-smith.net
+    - rschuetz17@gmail.com
   licenses:
     - MIT
-- repo: alpine_3_22
-  subrepo: community
+- repo: nix_stable_25_11
   srcname: lf
-  binname: lf-bash-completion
-  visiblename: lf-bash-completion
-  version: "35"
-  origversion: 35-r6
+  visiblename: lf
+  version: "38"
+  origversion: null
   status: outdated
-  summary: Bash completions for lf
+  summary: Terminal file manager written in Go and heavily inspired by ranger
   maintainers:
-    - james@chen-smith.net
+    - rschuetz17@gmail.com
   licenses:
     - MIT
-- repo: alpine_3_22
-  subrepo: community
+- repo: chimera
+  subrepo: user
   srcname: lf
-  binname: lf-doc
-  visiblename: lf-doc
-  version: "35"
-  origversion: 35-r6
+  binname: lf-bashcomp
+  visiblename: lf-bashcomp
+  version: "41"
+  origversion: 41-r6
   status: outdated
-  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
-  maintainers:
-    - james@chen-smith.net
+  summary: Terminal file manager (bash completions)
   licenses:
     - MIT
-- repo: alpine_3_22
+- repo: alpine_3_19
   subrepo: community
   srcname: lf
-  binname: lf-fish-completion
-  visiblename: lf-fish-completion
-  version: "35"
-  origversion: 35-r6
+  binname: lf-zsh-completion
+  visiblename: lf-zsh-completion
+  version: "31"
+  origversion: 31-r4
   status: outdated
-  summary: Fish completions for lf
+  summary: Zsh completions for lf
   maintainers:
-    - james@chen-smith.net
+    - m@milesalan.com
   licenses:
     - MIT
 - repo: pureos_landing
@@ -428,6 +95,398 @@
     - nickm@debian.org
   categories:
     - utils
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-zsh-completion
+  visiblename: lf-zsh-completion
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Zsh completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "28"
+  origversion: 28-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "27"
+  origversion: 27-r9
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "29"
+  origversion: 29-r4
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "29"
+  origversion: 29-r4
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "29"
+  origversion: 29-r4
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "29"
+  origversion: 29-r4
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: lf
+  binname: lf-zsh-completion
+  visiblename: lf-zsh-completion
+  version: "29"
+  origversion: 29-r4
+  status: outdated
+  summary: Zsh completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "31"
+  origversion: 31-r4
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "31"
+  origversion: 31-r4
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "31"
+  origversion: 31-r4
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "31"
+  origversion: 31-r4
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "32"
+  origversion: 32-r3
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "32"
+  origversion: 32-r3
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "32"
+  origversion: 32-r3
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "32"
+  origversion: 32-r3
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: lf
+  binname: lf-zsh-completion
+  visiblename: lf-zsh-completion
+  version: "32"
+  origversion: 32-r3
+  status: outdated
+  summary: Zsh completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "32"
+  origversion: 32-r8
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "32"
+  origversion: 32-r8
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "32"
+  origversion: 32-r8
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "32"
+  origversion: 32-r8
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: lf
+  binname: lf-zsh-completion
+  visiblename: lf-zsh-completion
+  version: "32"
+  origversion: 32-r8
+  status: outdated
+  summary: Zsh completions for lf
+  maintainers:
+    - m@milesalan.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "35"
+  origversion: 35-r6
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings
+  maintainers:
+    - james@chen-smith.net
+  licenses:
+    - MIT
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lf
+  binname: lf-bash-completion
+  visiblename: lf-bash-completion
+  version: "35"
+  origversion: 35-r6
+  status: outdated
+  summary: Bash completions for lf
+  maintainers:
+    - james@chen-smith.net
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lf
+  binname: lf-doc
+  visiblename: lf-doc
+  version: "35"
+  origversion: 35-r6
+  status: outdated
+  summary: Terminal filemanager written in Go with vim-style keybindings (documentation)
+  maintainers:
+    - james@chen-smith.net
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: lf
+  binname: lf-fish-completion
+  visiblename: lf-fish-completion
+  version: "35"
+  origversion: 35-r6
+  status: outdated
+  summary: Fish completions for lf
+  maintainers:
+    - james@chen-smith.net
+  licenses:
+    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: lf
@@ -571,20 +630,6 @@
     - fallback-mnt-alpine@repology
   licenses:
     - MIT
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "28"
-  origversion: 28-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: lf
@@ -716,40 +761,6 @@
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-- repo: carbs
-  subrepo: community
-  srcname: lf
-  visiblename: lf
-  version: "31"
-  origversion: null
-  status: outdated
-  summary: Terminal file manager in Go
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: lf
-  binname: lf-bashcomp
-  visiblename: lf-bashcomp
-  version: "41"
-  origversion: 41-r6
-  status: outdated
-  summary: Terminal file manager (bash completions)
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: lf
@@ -759,6 +770,17 @@
   origversion: 41-r6
   status: outdated
   summary: Terminal file manager (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: lf
+  binname: lf-fishcomp
+  visiblename: lf-fishcomp
+  version: "41"
+  origversion: 41-r6
+  status: outdated
+  summary: Terminal file manager (fish completions)
   licenses:
     - MIT
 - repo: chimera
@@ -897,6 +919,20 @@
     - yuri@freebsd.org
   categories:
     - misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "31"
+  origversion: 31+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -940,20 +976,6 @@
     - MIT
   categories:
     - app-misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "34"
-  origversion: 34+ds-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1006,6 +1028,20 @@
   origversion: null
   status: rolling
   summary: Terminal file manager
+- repo: kali_rolling
+  subrepo: main
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1090,6 +1126,20 @@
     - BSD
   categories:
     - app-misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
 - repo: liguros_develop
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1103,20 +1153,6 @@
     - MIT
   categories:
     - app-misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-4
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - misc
 - repo: liguros_develop
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1232,28 +1268,6 @@
     - rschuetz17@gmail.com
   licenses:
     - MIT
-- repo: nix_stable_25_05
-  srcname: lf
-  visiblename: lf
-  version: "35"
-  origversion: null
-  status: outdated
-  summary: Terminal file manager written in Go and heavily inspired by ranger
-  maintainers:
-    - rschuetz17@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: lf
-  visiblename: lf
-  version: "38"
-  origversion: null
-  status: outdated
-  summary: Terminal file manager written in Go and heavily inspired by ranger
-  maintainers:
-    - rschuetz17@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: lf
   visiblename: lf
@@ -1274,15 +1288,6 @@
   summary: Terminal file manager written in Go and heavily inspired by ranger
   maintainers:
     - nix@dotlambda.de
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: r42
-  status: newest
   licenses:
     - MIT
 - repo: openbsd
@@ -1471,6 +1476,15 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: scoop
+  subrepo: main
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: r42
+  status: newest
+  licenses:
+    - MIT
 - repo: side
   srcname: system/base/lf
   visiblename: lf
@@ -1576,20 +1590,6 @@
     - nickm@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "31"
-  origversion: 31+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
   srcname: lf
@@ -1632,8 +1632,8 @@
     - nickm@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: lf
   binnames:
     - lf
@@ -1646,14 +1646,14 @@
     - nickm@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
   srcname: lf
   binnames:
     - lf
   visiblename: lf
   version: "42"
-  origversion: 42+ds-1
+  origversion: 42+ds-4
   status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
