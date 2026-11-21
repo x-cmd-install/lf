@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 12 | 5 | 4 | 4 | 19 |
-| last60d | 2026-09-21 | 0 | 23 | 7 | 6 | 7 | 27 |
-| 90d | 2026-08-22 | 0 | 30 | 7 | 8 | 8 | 34 |
-| last180d | 2026-05-24 | 1 | 66 | 12 | 18 | 13 | 68 |
-| 360d | 2025-11-25 | 4 | 244 | 15 | 69 | 22 | 244 |
-| last720d | 2024-11-30 | 9 | 466 | 16 | 162 | 32 | 470 |
+| 30d | 2026-10-22 | 0 | 12 | 5 | 4 | 4 | 19 |
+| last60d | 2026-09-22 | 0 | 23 | 7 | 6 | 7 | 27 |
+| 90d | 2026-08-23 | 0 | 30 | 7 | 8 | 8 | 34 |
+| last180d | 2026-05-25 | 1 | 64 | 12 | 18 | 13 | 68 |
+| 360d | 2025-11-26 | 4 | 244 | 15 | 69 | 22 | 244 |
+| last720d | 2024-12-01 | 9 | 466 | 16 | 160 | 32 | 470 |
 
 ## Release assets
 
@@ -125,4 +125,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:29:11Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:48:26Z._
