@@ -1,38 +1,15 @@
-- repo: termux
-  srcname: lf
-  binname: lf
-  visiblename: lf
-  version: "42"
-  origversion: null
-  status: newest
-  summary: Terminal file manager
-  maintainers:
-    - termux@github
-- repo: nix_stable_25_11
+- repo: carbs
+  subrepo: community
   srcname: lf
   visiblename: lf
-  version: "38"
+  version: "31"
   origversion: null
   status: outdated
-  summary: Terminal file manager written in Go and heavily inspired by ranger
+  summary: Terminal file manager in Go
   maintainers:
-    - rschuetz17@gmail.com
+    - cem@carbslinux.org
   licenses:
     - MIT
-- repo: solus
-  srcname: lf
-  binname: lf-dbginfo
-  visiblename: lf-dbginfo
-  version: "42"
-  origversion: null
-  status: newest
-  summary: Debug symbols for lf
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - debug
 - repo: alpine_3_17
   subrepo: community
   srcname: lf
@@ -293,7 +270,7 @@
     - m@milesalan.com
   licenses:
     - MIT
-- repo: stalix
+- repo: stalix_dev
   srcname: bin/lf
   binname: bin/lf
   visiblename: bin/lf
@@ -695,18 +672,6 @@
   summary: A terminal file manager inspired by ranger
   licenses:
     - MIT
-- repo: carbs
-  subrepo: community
-  srcname: lf
-  visiblename: lf
-  version: "31"
-  origversion: null
-  status: outdated
-  summary: Terminal file manager in Go
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: lf
@@ -887,6 +852,18 @@
     - yuri@freebsd.org
   categories:
     - misc
+- repo: pkgsrc_2026_2
+  srcname: sysutils/lf
+  binname: lf
+  visiblename: sysutils/lf
+  version: "34"
+  origversion: 34nb16
+  status: outdated
+  summary: Terminal file manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -917,17 +894,6 @@
     - BSD
   categories:
     - app-misc
-- repo: stalix_dev
-  srcname: bin/lf
-  binname: bin/lf
-  visiblename: bin/lf
-  version: "42"
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -941,6 +907,16 @@
     - MIT
   categories:
     - app-misc
+- repo: starkos
+  subrepo: main
+  srcname: lf
+  visiblename: lf
+  version: "42"
+  origversion: 42-1
+  status: newest
+  summary: Terminal file manager
+  maintainers:
+    - starkos@disroot.org
 - repo: gentoo_ovl_guru
   srcname: app-misc/lf
   visiblename: app-misc/lf
@@ -1230,16 +1206,17 @@
     - rschuetz17@gmail.com
   licenses:
     - MIT
-- repo: starkos
-  subrepo: main
+- repo: nix_stable_25_11
   srcname: lf
   visiblename: lf
-  version: "42"
-  origversion: 42-1
-  status: newest
-  summary: Terminal file manager
+  version: "38"
+  origversion: null
+  status: outdated
+  summary: Terminal file manager written in Go and heavily inspired by ranger
   maintainers:
-    - starkos@disroot.org
+    - rschuetz17@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: lf
   visiblename: lf
@@ -1251,6 +1228,16 @@
     - nix@dotlambda.de
   licenses:
     - MIT
+- repo: termux
+  srcname: lf
+  binname: lf
+  visiblename: lf
+  version: "42"
+  origversion: null
+  status: newest
+  summary: Terminal file manager
+  maintainers:
+    - termux@github
 - repo: nix_unstable
   srcname: lf
   visiblename: lf
@@ -1371,7 +1358,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: lf
   binnames:
     - lf
@@ -1385,7 +1372,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: lf
   binnames:
     - lf
@@ -1412,18 +1399,6 @@
     - MIT
   categories:
     - app:console
-- repo: pkgsrc_2026_2
-  srcname: sysutils/lf
-  binname: lf
-  visiblename: sysutils/lf
-  version: "34"
-  origversion: 34nb16
-  status: outdated
-  summary: Terminal file manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: pkgsrc_2026_3
   srcname: sysutils/lf
   binname: lf
@@ -1504,20 +1479,6 @@
     - nickm@debian.org
   categories:
     - misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "42"
-  origversion: 42+ds-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nickm@debian.org
-  categories:
-    - universe/misc
 - repo: scoop
   subrepo: main
   binname: lf
@@ -1562,20 +1523,31 @@
     - MIT
   categories:
     - system.utils
-- repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+- repo: solus
   srcname: lf
-  binnames:
-    - lf
-  visiblename: lf
-  version: "31"
-  origversion: 31+ds-1ubuntu0.24.04.3
-  status: outdated
+  binname: lf-dbginfo
+  visiblename: lf-dbginfo
+  version: "42"
+  origversion: null
+  status: newest
+  summary: Debug symbols for lf
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - nickm@debian.org
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
   categories:
-    - universe/misc
+    - debug
+- repo: stalix
+  srcname: bin/lf
+  binname: bin/lf
+  visiblename: bin/lf
+  version: "42"
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: lf
@@ -1587,6 +1559,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "31"
+  origversion: 31+ds-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - nickm@debian.org
   categories:
     - universe/misc
@@ -1627,6 +1613,20 @@
   version: "38"
   origversion: 38+ds-1
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nickm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: lf
+  binnames:
+    - lf
+  visiblename: lf
+  version: "42"
+  origversion: 42+ds-1
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - nickm@debian.org
