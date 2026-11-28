@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,603 · **Forks**: 394 · **Open issues**: 1,344 · **Contributors**: 108
+- **Stars**: 9,607 · **Forks**: 394 · **Open issues**: 1,344 · **Contributors**: 108
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 10 | 5 | 3 | 4 | 15 |
-| last60d | 2026-09-28 | 0 | 20 | 7 | 7 | 7 | 24 |
-| 90d | 2026-08-29 | 0 | 29 | 8 | 9 | 9 | 33 |
-| last180d | 2026-05-31 | 1 | 57 | 12 | 19 | 14 | 61 |
-| 360d | 2025-12-02 | 3 | 238 | 16 | 68 | 23 | 239 |
-| last720d | 2024-12-07 | 9 | 464 | 17 | 158 | 33 | 468 |
+| 30d | 2026-10-29 | 0 | 8 | 5 | 3 | 4 | 15 |
+| last60d | 2026-09-29 | 0 | 20 | 7 | 7 | 7 | 24 |
+| 90d | 2026-08-30 | 0 | 29 | 8 | 9 | 9 | 33 |
+| last180d | 2026-06-01 | 1 | 57 | 12 | 19 | 14 | 61 |
+| 360d | 2025-12-03 | 3 | 238 | 16 | 68 | 23 | 239 |
+| last720d | 2024-12-08 | 9 | 464 | 17 | 158 | 33 | 468 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for lf lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:13:23Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:07:02Z._
